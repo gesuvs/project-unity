@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c89cc3df-a11b-46bd-b83c-38e1f7df2b13" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameOverManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameOverManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Night Mointains Lake.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Night Mointains Lake/NML.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Night Mointains Lake/NML.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project 4 Cats/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project 4 Cats/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScrenScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScrenScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +18,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/35/da75ace6/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/60/169a2ab4/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameOverManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/Editor/Shortcuts.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/Editor/Window/TimelineNavigator.cs" root0="SKIP_HIGHLIGHTING" />
