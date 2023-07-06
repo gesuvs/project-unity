@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScrenScene.unity
     guid: 34d6c8be9b227be40838f24477589633
   - enabled: 1
-    path: Assets/Scenes/Base.unity
+    path: 
+    guid: c850ee8c3b14cc8459e7e186857cf567
+  - enabled: 1
+    path: 
     guid: c850ee8c3b14cc8459e7e186857cf567
   - enabled: 1
     path: Assets/Scenes/Base.unity
-    guid: c850ee8c3b14cc8459e7e186857cf567
+    guid: 101ac9d06b1b80f40906a6a195a04984
+  - enabled: 1
+    path: Assets/Scenes/LevelOne.unity
+    guid: ba7f7c672868462439afa0823635703f
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 349eaa4aaad3f464e8eac64763e0f44b, type: 2}

@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,7 +10,6 @@ public class StaminaBar : MonoBehaviour
 
 	public static StaminaBar _instance;
 
-
 	private WaitForSeconds regenTick = new WaitForSeconds(0.1f);
 	private Coroutine regen;
 
@@ -20,7 +17,6 @@ public class StaminaBar : MonoBehaviour
 	{
 		_instance = this;
 	}
-
 
 	public void UseStamina(float amount)
 	{
