@@ -36,6 +36,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="947536ee-da91-4aae-ab2a-0704a561141b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project 4 Cats/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project 4 Cats/.idea/workspace.xml" afterDir="false" />
+=======
     <list default="true" id="c89cc3df-a11b-46bd-b83c-38e1f7df2b13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/AsyncLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AsyncLoader.cs" afterDir="false" />
     </list>
@@ -128,6 +132,7 @@
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+>>>>>>> 17d91aa7fdd0f649572a6625e4c8055e8a3f0188
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,10 +140,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/ca/6fc8d3df/IEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/35/da75ace6/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/60/169a2ab4/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AsyncLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< HEAD
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StaminaBar.cs" root0="FORCE_HIGHLIGHTING" />
+=======
     <setting file="file://$PROJECT_DIR$/Assets/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/Editor/Shortcuts.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/Editor/Window/TimelineNavigator.cs" root0="SKIP_HIGHLIGHTING" />
@@ -148,17 +158,25 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/35/da75ace6/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/60/169a2ab4/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/8f/7c5efa01/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+>>>>>>> 17d91aa7fdd0f649572a6625e4c8055e8a3f0188
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/Editor/Shortcuts.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/Editor/Window/TimelineNavigator.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
+  <component name="ProjectId" id="2O53ky9XPnpWcKMs49lKAmC2pp2" />
+=======
   <component name="ProjectId" id="2O1H7vatX5xyfeeqv9C0S7EB09u" />
+>>>>>>> 17d91aa7fdd0f649572a6625e4c8055e8a3f0188
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Discover.Launch.Via.Unity": "true",
@@ -177,6 +195,7 @@
   }
 }]]></component>
   <component name="RunManager" selected="Standalone Player.Start Unity">
+>>>>>>> 17d91aa7fdd0f649572a6625e4c8055e8a3f0188
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\Gesuvs\Documents\Projects\Unity\Game\Project 4 Cats&quot; -debugCodeOptimization" />
@@ -232,6 +251,11 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+<<<<<<< HEAD
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+=======
   <component name="ProjectId" id="2Nw7Hik87o4sQBfl4RUK4Lg7kMt" />
   <component name="ProjectId" id="2O53ky9XPnpWcKMs49lKAmC2pp2" />
   <component name="ProjectViewState">
@@ -348,4 +372,5 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 >>>>>>> 9df139e7013c7848cd211f7a9420ed89934ef9f8
+>>>>>>> 17d91aa7fdd0f649572a6625e4c8055e8a3f0188
 </project>
