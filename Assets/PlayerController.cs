@@ -11,26 +11,31 @@ public class PlayerController : NetworkBehaviour
 
     PlayerInput input;
 
-    Vector2 currentMovement;
     bool movementPressed;
     void Awake()
     {
+        Debug.Log("Awake");
+
         input = new PlayerInput();
         input.Player.Move.performed += ctx =>
         {
-            currentMovement = ctx.ReadValue<Vector2>();
+            ctx.ReadValue<Vector2>();
         };
     }
 
     public void OnMove(InputAction.CallbackContext context)
     {
+        Debug.Log("OnMove");
+
         move = context.ReadValue<Vector2>();
     }
 
     private void MovePlayer()
     {
-        if (!IsOwner) return;
-        
+        Debug.Log("MovePlayer");
+        Debug.Log($"IsOwner: {IsOwner}");
+
+        // if (!IsOwner) return;
         var movement = new Vector3(move.x,0f,move.y);
         
         transform.Translate(movement * (speed * Time.deltaTime),Space.World);
@@ -38,6 +43,8 @@ public class PlayerController : NetworkBehaviour
         
         movementPressed = move.x != 0 || move.y != 0;
         animator.SetBool(isRunForwardHash, movementPressed);
+        Debug.Log($"isRunForwardHash: {isRunForwardHash}");
+        Debug.Log($"movementPressed: {movementPressed}");
     }
 
     void Start()
