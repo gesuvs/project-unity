@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
@@ -8,21 +9,14 @@ public class CameraFollow : MonoBehaviour
     public Transform target;
     public float smoothTime = 0.3f;
     public Vector3 offset;
-    private Vector3 velocity = Vector3.zero;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private Vector3 _velocity = Vector3.zero;
 
     // Update is called once per frame
     void Update()
     {
-        if (target !=null)
-        {
-            var targetPosition = target.position + offset;
-            transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
-        }   
+        var isTargetNull = target.IsUnityNull();
+        if (isTargetNull) return;
+        var targetPosition = target.position + offset;
+        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref _velocity, smoothTime);
     }
 }
