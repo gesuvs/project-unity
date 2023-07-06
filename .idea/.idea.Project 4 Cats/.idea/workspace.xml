@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+    <list default="true" id="c89cc3df-a11b-46bd-b83c-38e1f7df2b13" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
+=======
+<<<<<<< HEAD
     <list default="true" id="7f646529-3730-456d-bb5f-85a50b998576" name="Changes" comment="" />
 =======
     <list default="true" id="947536ee-da91-4aae-ab2a-0704a561141b" name="Changes" comment="">
@@ -94,12 +99,20 @@
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
 >>>>>>> b4557bf227a3c160c6661fa44774588b067344a0
+>>>>>>> 5a589ba64fe8079fea60854415ce1e0876c74ace
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/35/da75ace6/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/60/169a2ab4/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/Editor/Shortcuts.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/Editor/Window/TimelineNavigator.cs" root0="SKIP_HIGHLIGHTING" />
+=======
 <<<<<<< HEAD
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/35/da75ace6/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/60/169a2ab4/Component.cs" root0="SKIP_HIGHLIGHTING" />
@@ -111,10 +124,18 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/Editor/Shortcuts.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/Editor/Window/TimelineNavigator.cs" root0="SKIP_HIGHLIGHTING" />
 >>>>>>> b4557bf227a3c160c6661fa44774588b067344a0
+>>>>>>> 5a589ba64fe8079fea60854415ce1e0876c74ace
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+=======
 <<<<<<< HEAD
   <component name="ProjectId" id="2Nw7Hik87o4sQBfl4RUK4Lg7kMt" />
 =======
@@ -239,4 +260,5 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
+>>>>>>> 5a589ba64fe8079fea60854415ce1e0876c74ace
 </project>
