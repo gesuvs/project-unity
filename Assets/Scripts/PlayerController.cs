@@ -35,7 +35,7 @@ public class PlayerController : NetworkBehaviour
         Debug.Log("MovePlayer");
         Debug.Log($"IsOwner: {IsOwner}");
 
-        // if (!IsOwner) return;
+        if (!IsOwner) return;
         var movement = new Vector3(move.x,0f,move.y);
         
         transform.Translate(movement * (speed * Time.deltaTime),Space.World);
