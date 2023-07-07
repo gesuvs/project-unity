@@ -18,9 +18,9 @@ public class PlayerBehavior : MonoBehaviour
 	// Update is called once per frame
 	void Update() 
 	{
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKey(KeyCode.LeftShift))
 		{
-			StaminaBar._instance.UseStamina(15); 
+			StaminaBar._instance.UseStamina(0.010f); 
 		} 
 	}
 }
