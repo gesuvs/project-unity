@@ -5,58 +5,57 @@ using UnityEngine.UI;
 public class StaminaBar : MonoBehaviour
 {
 	public Slider staminaBar;
-	public float maxStamina = 100f;
-	public float stamina;
+	public PlayerBehavior playerBehavior;
 
-	public static StaminaBar _instance;
+	public static StaminaBar Instance;
 
-	private WaitForSeconds regenTick = new(0.1f);
+	private readonly WaitForSeconds regenTick = new(0.1f);
 	private Coroutine regen;
 
 	private void Awake()
 	{
-		_instance = this;
+		Instance = this;
 	}
 
 	public void UseStamina(float amount)
 	{
-
-		if (stamina > 0)
+		if (playerBehavior.stamina > 0)
 		{
 			TakeStamina(amount);
-		} else if (stamina - amount >= 0)
+		}
+		else if (playerBehavior.stamina - amount >= 0)
 		{
 			TakeStamina(amount);
-		}else
+		}
+		else
 		{
 			Debug.Log("Not enough stamina");
 		}
-		
+
 		if (regen != null)
 		{
 			StopCoroutine(regen);
 		}
 
 		regen = StartCoroutine(RegenStamina());
-		
 	}
 
 	// Start is called before the first frame update
 	void Start()
 	{
-		stamina = maxStamina;
-		staminaBar.maxValue = maxStamina;
-		staminaBar.value = maxStamina;
+		playerBehavior.stamina = playerBehavior.maxStamina;
+		staminaBar.maxValue = playerBehavior.maxStamina;
+		staminaBar.value = playerBehavior.maxStamina;
 	}
 
 	private IEnumerator RegenStamina()
 	{
 		yield return new WaitForSeconds(2f);
 
-		while (stamina < maxStamina)
+		while (playerBehavior.stamina < playerBehavior.maxStamina)
 		{
-			stamina += maxStamina / 100;
-			staminaBar.value = stamina;
+			playerBehavior.stamina += playerBehavior.maxStamina / 100;
+			staminaBar.value = playerBehavior.stamina;
 			yield return regenTick;
 		}
 
@@ -65,7 +64,8 @@ public class StaminaBar : MonoBehaviour
 
 	private void TakeStamina(float amount)
 	{
-		stamina -= amount;
-		staminaBar.value = stamina;
+		
+		playerBehavior.stamina -= amount;
+		staminaBar.value = playerBehavior.stamina;
 	}
 }

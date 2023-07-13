@@ -3,12 +3,12 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-	public Image healthBar;
+	public Slider slider;
 	public PlayerBehavior playerBehavior;
 
 	private void HealthBarFilled()
 	{
-		// healthBar.fillAmount = Mathf.Clamp(player.health / player.maxHealth, 0, 1f);
+		slider.value = Mathf.Clamp(playerBehavior.health / playerBehavior.maxHealth, 0, 1f);
 	}
 
 
@@ -16,10 +16,7 @@ public class HealthBar : MonoBehaviour
 	{
 		if (playerBehavior.health > 0)
 		{
-			var healthBarRect = healthBar.rectTransform.rect;
-			var healthBarWidth = healthBarRect.width;
-			var healthBarHeight = healthBarRect.height;
-			healthBar.rectTransform.sizeDelta = new Vector2((healthBarWidth - damagePoints), healthBarHeight);
+			slider.value -= damagePoints;
 		}
 	}
 

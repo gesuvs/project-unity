@@ -2,9 +2,12 @@ using UnityEngine;
 
 public class PlayerBehavior : MonoBehaviour
 {
-   
+  
+	[Header("Player Stats")]
 	public float health;
 	public float maxHealth;
+	public float stamina;
+	public float maxStamina;
 
 	public HealthBar healthBar;
 
@@ -20,7 +23,7 @@ public class PlayerBehavior : MonoBehaviour
 	{
 		if (Input.GetKey(KeyCode.LeftShift))
 		{
-			StaminaBar._instance.UseStamina(0.010f); 
+			StaminaBar.Instance.UseStamina(0.010f); 
 		} 
 	}
 }
